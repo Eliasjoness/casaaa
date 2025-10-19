@@ -3,18 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Casa 3D</title>
+  <title>Casa 3D Interactiva</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div id="container"></div>
-
-  <!-- 🔹 Usamos la versión r128 (la última compatible con OrbitControls clásico) -->
+  <button id="startButton">Entrar al recorrido</button>
   <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/PointerLockControls.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
-
-  <!-- Tu script -->
   <script src="script.js"></script>
 </body>
 </html>
